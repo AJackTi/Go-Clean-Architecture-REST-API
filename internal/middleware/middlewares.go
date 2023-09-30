@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/AleksK1NG/api-mc/config"
-	"github.com/AleksK1NG/api-mc/internal/auth"
-	"github.com/AleksK1NG/api-mc/internal/session"
-	"github.com/AleksK1NG/api-mc/pkg/logger"
+	"github.com/AJackTi/go-clean-architecture/config"
+	"github.com/AJackTi/go-clean-architecture/internal/auth"
+	"github.com/AJackTi/go-clean-architecture/internal/session"
+	"github.com/AJackTi/go-clean-architecture/pkg/logger"
 )
 
 // Middleware manager

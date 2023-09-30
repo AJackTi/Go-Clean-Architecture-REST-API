@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	"github.com/AleksK1NG/api-mc/config"
+	"github.com/AJackTi/go-clean-architecture/config"
 )
 
 // Returns new redis client

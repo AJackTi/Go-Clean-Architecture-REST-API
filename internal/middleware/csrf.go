@@ -5,9 +5,9 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/AleksK1NG/api-mc/pkg/csrf"
-	"github.com/AleksK1NG/api-mc/pkg/httpErrors"
-	"github.com/AleksK1NG/api-mc/pkg/utils"
+	"github.com/AJackTi/go-clean-architecture/pkg/csrf"
+	"github.com/AJackTi/go-clean-architecture/pkg/httpErrors"
+	"github.com/AJackTi/go-clean-architecture/pkg/utils"
 )
 
 // CSRF Middleware

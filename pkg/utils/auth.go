@@ -3,8 +3,8 @@ package utils
 import (
 	"context"
 
-	"github.com/AleksK1NG/api-mc/pkg/httpErrors"
-	"github.com/AleksK1NG/api-mc/pkg/logger"
+	"github.com/AJackTi/go-clean-architecture/pkg/httpErrors"
+	"github.com/AJackTi/go-clean-architecture/pkg/logger"
 )
 
 // Validate is user from owner of content

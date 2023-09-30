@@ -4,7 +4,7 @@ package auth
 import (
 	"context"
 
-	"github.com/AleksK1NG/api-mc/internal/models"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
 )
 
 // Auth Redis repository interface

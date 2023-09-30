@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/AleksK1NG/api-mc/pkg/utils"
+	"github.com/AJackTi/go-clean-architecture/pkg/utils"
 )
 
 // Request logger middleware

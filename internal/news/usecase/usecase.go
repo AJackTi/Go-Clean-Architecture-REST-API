@@ -9,12 +9,12 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 
-	"github.com/AleksK1NG/api-mc/config"
-	"github.com/AleksK1NG/api-mc/internal/models"
-	"github.com/AleksK1NG/api-mc/internal/news"
-	"github.com/AleksK1NG/api-mc/pkg/httpErrors"
-	"github.com/AleksK1NG/api-mc/pkg/logger"
-	"github.com/AleksK1NG/api-mc/pkg/utils"
+	"github.com/AJackTi/go-clean-architecture/config"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
+	"github.com/AJackTi/go-clean-architecture/internal/news"
+	"github.com/AJackTi/go-clean-architecture/pkg/httpErrors"
+	"github.com/AJackTi/go-clean-architecture/pkg/logger"
+	"github.com/AJackTi/go-clean-architecture/pkg/utils"
 )
 
 const (

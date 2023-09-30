@@ -10,8 +10,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/AleksK1NG/api-mc/internal/models"
-	"github.com/AleksK1NG/api-mc/internal/session"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
+	"github.com/AJackTi/go-clean-architecture/internal/session"
 )
 
 func SetupRedis() session.SessRepository {

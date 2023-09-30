@@ -9,9 +9,9 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 
-	"github.com/AleksK1NG/api-mc/internal/auth"
-	"github.com/AleksK1NG/api-mc/internal/models"
-	"github.com/AleksK1NG/api-mc/pkg/utils"
+	"github.com/AJackTi/go-clean-architecture/internal/auth"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
+	"github.com/AJackTi/go-clean-architecture/pkg/utils"
 )
 
 // Auth Repository

@@ -7,8 +7,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/AleksK1NG/api-mc/internal/models"
-	"github.com/AleksK1NG/api-mc/internal/session/mock"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
+	"github.com/AJackTi/go-clean-architecture/internal/session/mock"
 )
 
 func TestSessionUC_CreateSession(t *testing.T) {

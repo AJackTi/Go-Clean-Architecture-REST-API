@@ -6,7 +6,7 @@ import (
 
 	"github.com/minio/minio-go/v7"
 
-	"github.com/AleksK1NG/api-mc/internal/models"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
 )
 
 // Minio AWS S3 interface

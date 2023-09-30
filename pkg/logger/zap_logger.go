@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/AleksK1NG/api-mc/config"
+	"github.com/AJackTi/go-clean-architecture/config"
 )
 
 // Logger methods interface

@@ -6,7 +6,7 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/AleksK1NG/api-mc/pkg/sanitize"
+	"github.com/AJackTi/go-clean-architecture/pkg/sanitize"
 )
 
 // Sanitize and read request body to ctx for next use in easy json

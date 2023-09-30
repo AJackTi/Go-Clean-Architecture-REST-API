@@ -19,9 +19,9 @@ var doc = `{
         "description": "{{.Description}}",
         "title": "{{.Title}}",
         "contact": {
-            "name": "Alexander Bryksin",
-            "url": "https://github.com/AleksK1NG",
-            "email": "alexander.bryksin@yandex.ru"
+            "name": "AJackTi",
+            "url": "https://github.com/AJackTi",
+            "email": "dtrong97vn@gmail.com"
         },
         "version": "{{.Version}}"
     },

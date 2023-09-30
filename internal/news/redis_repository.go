@@ -4,7 +4,7 @@ package news
 import (
 	"context"
 
-	"github.com/AleksK1NG/api-mc/internal/models"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
 )
 
 // News redis repository

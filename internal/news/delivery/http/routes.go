@@ -3,8 +3,8 @@ package http
 import (
 	"github.com/labstack/echo/v4"
 
-	"github.com/AleksK1NG/api-mc/internal/middleware"
-	"github.com/AleksK1NG/api-mc/internal/news"
+	"github.com/AJackTi/go-clean-architecture/internal/middleware"
+	"github.com/AJackTi/go-clean-architecture/internal/news"
 )
 
 // Map news routes

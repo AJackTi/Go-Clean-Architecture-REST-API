@@ -13,12 +13,12 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/AleksK1NG/api-mc/internal/comments/mock"
-	"github.com/AleksK1NG/api-mc/internal/comments/usecase"
-	"github.com/AleksK1NG/api-mc/internal/models"
-	"github.com/AleksK1NG/api-mc/pkg/converter"
-	"github.com/AleksK1NG/api-mc/pkg/logger"
-	"github.com/AleksK1NG/api-mc/pkg/utils"
+	"github.com/AJackTi/go-clean-architecture/internal/comments/mock"
+	"github.com/AJackTi/go-clean-architecture/internal/comments/usecase"
+	"github.com/AJackTi/go-clean-architecture/internal/models"
+	"github.com/AJackTi/go-clean-architecture/pkg/converter"
+	"github.com/AJackTi/go-clean-architecture/pkg/logger"
+	"github.com/AJackTi/go-clean-architecture/pkg/utils"
 )
 
 func TestCommentsHandlers_Create(t *testing.T) {

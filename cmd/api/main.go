@@ -8,13 +8,13 @@ import (
 	jaegerlog "github.com/uber/jaeger-client-go/log"
 	"github.com/uber/jaeger-lib/metrics"
 
-	"github.com/AleksK1NG/api-mc/config"
-	"github.com/AleksK1NG/api-mc/internal/server"
-	"github.com/AleksK1NG/api-mc/pkg/db/aws"
-	"github.com/AleksK1NG/api-mc/pkg/db/postgres"
-	"github.com/AleksK1NG/api-mc/pkg/db/redis"
-	"github.com/AleksK1NG/api-mc/pkg/logger"
-	"github.com/AleksK1NG/api-mc/pkg/utils"
+	"github.com/AJackTi/go-clean-architecture/config"
+	"github.com/AJackTi/go-clean-architecture/internal/server"
+	"github.com/AJackTi/go-clean-architecture/pkg/db/aws"
+	"github.com/AJackTi/go-clean-architecture/pkg/db/postgres"
+	"github.com/AJackTi/go-clean-architecture/pkg/db/redis"
+	"github.com/AJackTi/go-clean-architecture/pkg/logger"
+	"github.com/AJackTi/go-clean-architecture/pkg/utils"
 
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
@@ -23,9 +23,9 @@ import (
 // @title Go Example REST API
 // @version 1.0
 // @description Example Golang REST API
-// @contact.name Alexander Bryksin
-// @contact.url https://github.com/AleksK1NG
-// @contact.email alexander.bryksin@yandex.ru
+// @contact.name AJackTi
+// @contact.url https://github.com/AJackTi
+// @contact.email dtrong97vn@gmail.com
 // @BasePath /api/v1
 func main() {
 	log.Println("Starting api server")
